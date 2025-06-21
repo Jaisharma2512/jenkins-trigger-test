@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                   git 'https://github.com/Jaisharma2512/jenkins-trigger-test.git'
+                   git branch: 'main', url: 'https://github.com/Jaisharma2512/jenkins-trigger-test.git'
             }
         }
         stage('Build'){
