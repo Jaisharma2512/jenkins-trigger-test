@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @Library("my-lib") _
 pipeline{
     agent any
@@ -13,4 +14,3 @@ pipeline{
             }
         }
     }
-}
